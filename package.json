@@ -1,0 +1,16 @@
+{
+  "name": "parabank-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver tests for ParaBank registration flows",
+  "scripts": {
+    "test": "mocha --timeout 60000 --recursive tests/**/*.test.js",
+    "test:registration": "mocha --timeout 60000 tests/registration.test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "chai": "^4.4.1"
+  }
+}
