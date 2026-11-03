@@ -1,0 +1,20 @@
+{
+  "name": "parabank-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver tests for ParaBank application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 --recursive test/specs/",
+    "test:tc0011": "mocha --timeout 60000 test/specs/tc0011_bill_payment_invalid_amount.spec.js",
+    "test:tc0012": "mocha --timeout 60000 test/specs/tc0012_loan_application_success.spec.js",
+    "test:tc0013": "mocha --timeout 60000 test/specs/tc0013_loan_application_blank_fields.spec.js",
+    "test:tc0014": "mocha --timeout 60000 test/specs/tc0014_loan_approval_status.spec.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10"
+  }
+}
