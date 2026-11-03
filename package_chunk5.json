@@ -1,0 +1,17 @@
+{
+  "name": "parabank-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver tests for ParaBank application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/**/*.spec.js --timeout 60000 --reporter spec",
+    "test:tc0023": "mocha tests/tc0023.spec.js --timeout 60000 --reporter spec"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "chai": "^5.1.0"
+  }
+}
