@@ -1,0 +1,15 @@
+{
+  "valid_registration": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "password": "123",
+    "emailPrefix": "john.doe"
+  },
+  "invalid_registration": {
+    "firstName": "",
+    "lastName": "",
+    "email": "invalid-email",
+    "password": "123",
+    "confirmPassword": "456"
+  }
+}
